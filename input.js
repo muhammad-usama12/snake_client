@@ -1,5 +1,4 @@
 let connection;
-
 const setupInput = function (conn) {
   connection = conn;
   const stdin = process.stdin;
@@ -33,6 +32,7 @@ const handleUserInput = function (data) {
     connection.write(`Say: Hissssssss`);
   }
 };
+
 module.exports = {
   setupInput,
 };
